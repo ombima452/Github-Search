@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+
+body{
+    background-image:url("https://zdnet2.cbsistatic.com/hub/i/2018/10/18/580b4d43-4060-4d90-be23-1f97ef795e4e/728d01dc4dcf263a83614614e8217d15/github-logo.png");
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+
+}
+.overlay{
+    z-index: 2;
+    background-color: rgba(116, 117, 115, 0.8);
+    /* height: 663px; */
+}
+.card{
+    background-color: rgba( 116,117,115,1);
+}
+
+
+

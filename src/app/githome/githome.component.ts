@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {GitserviceService} from '../services/gitservice.service'
 import {Github} from '../github';
-// import {GitFormComponent} from '../git-form'
+
 
 @Component({
   selector: 'app-githome',

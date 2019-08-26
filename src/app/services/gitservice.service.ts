@@ -28,8 +28,6 @@ export class GitserviceService {
         url: string;
       }
 
-      // let searchEndpoint= "https://api.github.com/users/+'searchTerm'+?access_token="+environment.APIKEY;
-    // searchEndpoint += "&q="+searchTerm;
     let promise =  new Promise((resolve, reject)=>{
 
         this.http.get<data>('https://api.github.com/users/'+searchTerm+'?access_token='+environment.APIKEY).toPromise().then(
@@ -48,7 +46,7 @@ export class GitserviceService {
     return promise;
   }
 
-  //GIT REPO SEARCH BEGINS
+  
   searchRepo(searchTerm:string){
     interface results {
       login:string;
@@ -59,8 +57,7 @@ export class GitserviceService {
       url: string;
     }
 
-      // let searchEndpoint= "https://api.giphy.com/v1/gifs/search?api_key="+environment.GIPHYAPIKEY;
-      // searchEndpoint += "&q="+searchTerm;
+  
       let promise =  new Promise((resolve, reject)=>{
           this.http.get<results>('https://api.github.com/users/'+searchTerm+'/repos?access_token='+environment.APIKEY).toPromise().then(
             (results)=>{

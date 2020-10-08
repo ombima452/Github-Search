@@ -12,7 +12,7 @@ If you need clarification on any aspect, feel free to reach me on my email at ch
 
 ### License
 MIT License
-Copyright (c) 2019 Sam Nujoma.
+Copyright (c) 2019 christine ombima.
 
 ## Angular Information
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
